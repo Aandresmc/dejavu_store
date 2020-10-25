@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Dejavu Store',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.black,
       ),
       home: Scaffold(
         appBar: AppBar(
