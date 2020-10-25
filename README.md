@@ -2,15 +2,9 @@
 
 A new Flutter project.
 
-## Getting Started
+## version flutter used
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Flutter 1.23.0-8.0.pre.127 • channel master • https://github.com/flutter/flutter.git
+Framework • revision 63852d2073 (3 weeks ago) • 2020-10-03 09:14:48 -0700
+Engine • revision a24c7c1392
+Tools • Dart 2.11.0 (build 2.11.0-183.0.dev)
