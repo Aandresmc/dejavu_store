@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "dejavu_store Dev",
+            "type": "dart",
+            "request": "launch",
+            "program": "lib/environments/environment.dev.dart"
+        },
+        {
+            "name": "dejavu_store Prod",
+            "type": "dart",
+            "request": "launch",
+            "program": "lib/environments/environment.prod.dart"
+        },
+        {
+            "name": "dejavu_store Qa",
+            "type": "dart",
+            "request": "launch",
+            "program": "lib/environments/environment.qa.dart"
+        }
+    ]
+}
