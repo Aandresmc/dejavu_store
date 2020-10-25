@@ -5,10 +5,12 @@ Future<void> mainCommon(String enviroment) async {
   WidgetsFlutterBinding.ensureInitialized();
   await AppEnviroments.initialize(env: enviroment);
   // This captures errors reported by the Flutter framework.
-  runApp(MyApp());
+  runApp(MyApp(enviroment));
 }
 
 class MyApp extends StatelessWidget {
+  final enviroment;
+  MyApp(this.enviroment);
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
@@ -18,6 +20,10 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: Scaffold(
+        appBar: AppBar(
+          title: enviroment,
+          centerTitle: true,
+        ),
         body: Center(
           child: Text(AppEnviroments.getApiHostAws()),
         ),
