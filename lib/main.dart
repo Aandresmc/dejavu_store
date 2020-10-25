@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Dejavu Store',
+      title: 'Dejavu Store Ecommerce',
       theme: ThemeData(
         primarySwatch: Colors.deepPurple,
       ),
